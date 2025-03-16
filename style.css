@@ -1,0 +1,60 @@
+/* Mengatur tampilan umum halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d3041f6;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling untuk heading */
+h1 {
+    color: #2a11caf3;
+    font-size: 28px;
+}
+
+/* Styling untuk paragraf deskripsi */
+.deskripsi {
+    color: rgb(209, 229, 235);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling untuk gambar profil */
+img {
+    border-radius: 15px; /* Membuat sudut gambar tidak terlalu lancip */
+    border: 3px solid #457cc5;
+    margin-top: 10px;
+    width: 200px; /* Sesuaikan ukuran gambar */
+    height: auto;
+}
+
+/* Styling untuk deskripsi gambar */
+.gambar-deskripsi {
+    font-style: italic;
+    color: gray;
+}
+
+/* Styling untuk informasi tambahan */
+.info {
+    color: rgb(219, 226, 235);
+    font-size: 16px;
+}
+
+/* Styling untuk tombol */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #254267;
+    border: none;
+    border-radius: 10px; /* Membuat tombol dengan sudut tidak lancip */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #1a3048;
+}
